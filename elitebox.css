@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    height: 650px;
+    width: 84%;
+    background: transparent;
+    margin-left: 8%;
+    display: flex;
+}
+
+
+/* box1 start */
+
+.main .box1 {
+    height: 650px;
+    width: 40%;
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bb1.jpg);
+    background-size: 110% 100%;
+    border: 15px solid rgba(185, 185, 185, .20);
+    background-origin: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-position: -40PX;
+    transition: 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .box1 .sale {
+    position: absolute;
+    top: 80px;
+    left: 280px;
+    color: white;
+    font-size: 30PX;
+    letter-spacing: 5PX;
+}
+
+.box1 .sale::first-letter {
+    color: red;
+}
+
+.main .box1:hover {
+    background-position: 0, 0;
+}
+
+.main .box1 .border1 {
+    height: 550px;
+    width: 85%;
+    border: 3px solid white;
+    font-size: 22PX;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 10PX;
+    padding: 90px 0 0 150px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.main .box1:hover .border1 {
+    opacity: 1;
+}
+
+
+/* box1 close */
+
+
+/* box2 start */
+
+.main .box2 {
+    height: 650px;
+    width: 57%;
+    background: transparent;
+    margin-left: 30px;
+}
+
+
+/* box2 close */
+
+
+/* box3 start */
+
+.main .box2 .box3 {
+    height: 315px;
+    width: 100%;
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom3.jpg);
+    background-size: 110% 100%;
+    border: 15px solid rgba(185, 185, 185, .20);
+    background-origin: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-position: -50PX;
+    transition: 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .box3 .sale {
+    position: absolute;
+    top: 95px;
+    left: 470px;
+    color: white;
+    font-size: 30PX;
+    letter-spacing: 5PX;
+}
+
+.box3 .sale::first-letter {
+    color: red;
+}
+
+.main .box2 .box3:hover {
+    background-position: 0, 0;
+}
+
+.main .box2 .box3 .border2 {
+    height: 220px;
+    width: 89%;
+    border: 3px solid white;
+    font-size: 22PX;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 10PX;
+    padding: 110px 0 0 330px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.main .box2 .box3:hover .border2 {
+    opacity: 1;
+}
+
+
+/* box3 close */
+
+.main .box2 .box4 {
+    height: 315px;
+    width: 100%;
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom4.jpg);
+    margin-top: 20px;
+    background-size: 110% 100%;
+    border: 15px solid rgba(185, 185, 185, .20);
+    background-origin: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-position: -50PX;
+    transition: 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .box4 .sale {
+    position: absolute;
+    top: 95px;
+    left: 470px;
+    color: white;
+    font-size: 30PX;
+    letter-spacing: 5PX;
+}
+
+.box4 .sale::first-letter {
+    color: red;
+}
+
+.main .box2 .box4:hover {
+    background-position: 0, 0;
+}
+
+.main .box2 .box4 .border3 {
+    height: 220px;
+    width: 89%;
+    border: 3px solid white;
+    font-size: 22PX;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 10PX;
+    padding: 110px 0 0 330px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.main .box2 .box4:hover .border3 {
+    opacity: 1;
+}
