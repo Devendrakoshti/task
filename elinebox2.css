@@ -1,0 +1,125 @@
+/* box1 start */
+
+.main {
+    height: 350px;
+    background: grey;
+    margin-top: 100px;
+    display: flex;
+}
+
+.main .box1 {
+    height: 350px;
+    width: 50%;
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .box1 .tex1 {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 160px 0 0 210px;
+}
+
+.main .box1 .tex1 span {
+    color: aqua;
+}
+
+ ::after {
+    content: "";
+    height: 350px;
+    width: 680px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .25);
+    transform: translate(700px, -350px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.main .box1:hover::after {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+ ::before {
+    content: "";
+    height: 350px;
+    width: 680px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .25);
+    transform: translate(-700px, 350px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.main .box1:hover::before {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+
+/* box1 close */
+
+.main .box2 {
+    height: 350px;
+    width: 50%;
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_2.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .box2 .tex2 {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 160px 0 0 210px;
+}
+
+.main .box2 .tex2 span {
+    color: aqua;
+}
+
+ ::after {
+    content: "";
+    height: 350px;
+    width: 680px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .25);
+    transform: translate(700px, -350px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.main .box2:hover::after {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+ ::before {
+    content: "";
+    height: 350px;
+    width: 680px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .25);
+    transform: translate(-700px, 350px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.main .box2:hover::before {
+    opacity: 1;
+    transform: translate(0, 0);
+}

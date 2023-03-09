@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    height: 637px;
+    width: 68%;
+    background: radial-gradient(pink, blue, red, yellow);
+    margin: 0 auto;
+    padding: 115px 0 0 110px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.main .squ {
+    height: 400px;
+    width: 85%;
+    background: rgba(255, 255, 255, .7);
+    border-radius: 15px;
+    z-index: 0;
+    backdrop-filter: blur(10px);
+}
+
+.main .rou1 {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, .5);
+}
+
+.main .rou2 {
+    position: absolute;
+    top: 420px;
+    left: 540px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, .5);
+    z-index: -1;
+}
+
+.main .squ .hed {}

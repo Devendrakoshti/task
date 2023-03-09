@@ -5,8 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{box-sizing: border-box;}
+        .main{
+            height: 450px;
+            /* border: solid; */
+        }
+        .main .box{
+            height: 300px;
+            /* border: solid; */
+           
+            margin-top: 75px;
+            display: flex;
+
+            
+        }
+        .main .box .img1{
+            position: relative;
+
+            height: 300px;
+            width: 545px;
+            border: solid 20px rgba(0,0,0,.21);
+           /* padding: 0 10px 10px 0; */
+display: flex;
+justify-content: center;
+align-items: center;
+           margin-left: 90px;
+            background-size: 100% 100%;
+            background: url(bottom1\ \(1\).jpg);
+            background-position: -30px;
+            transition: 1s;
+
+            background-origin:border-box;
+         }
+        .main .box .img1 .tex1{
+            position: absolute;
+
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            top: 90px;
+            left: 290px;
+            
+        }
+        .main .box .img2{
+            position: relative;
+            height: 300px;
+            width: 545px;
+            border: solid 20px rgba(0,0,0,.21);
+           margin-left: 50px;
+            
+            background: url(bottom2.jpg);
+            background-size: 100% 100%;
+            /* padding: 0 10px 10px 0; */
+display: flex;
+justify-content: center;
+align-items: center;
+           /* margin-left: 90px;
+           margin-right: 50px; */
+            background-position: -30px;
+            transition: 1s;
+
+            background-origin:border-box;
+            
+
+        }
+        .main .box .img1 .border1{
+            height: 200px;
+            width: 450px;
+            border: solid white 4px;
+            /* margin: 40px 0 0 30px; */
+           padding: 100px 0 0 200px;
+           font-size: 30px;
+            color: white;
+            letter-spacing: 4px;
+            opacity: 0;
+            
+            font-family: cursive;
+            transition: 1s;
+            
+            
+            }
+        .main .box .img2 .border2{
+            height: 200px;
+            width: 450px;
+            border: solid white 4px;
+           padding: 100px 0 0 200px;
+           
+            
+            font-size: 30px;
+            color: white;
+            letter-spacing: 4px;
+            opacity: 0;
+            
+            font-family: cursive;
+            transition: 1s;
+            
+            
+            }
+            
+            .tex1::first-letter{
+                color: red;
+            }
+        .main .box .img1:hover .border1{
+                opacity: 1;
+                /* padding-left: 0; */
+            }
+            
+            .main .box .img2 .tex2{
+            position: absolute;
+
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            top: 100px;
+            left: 290px;}
+
+            .tex2::first-letter{
+                color: red;
+            }
+            
+            .main .box .img2:hover .border2{
+                opacity: 1;
+                /* padding-left: 0; */
+            }
+            .main .box .img1:hover {
+                background-position: 0px, 0px;
+            }
+            .main .box .img2:hover {
+                background-position: 0px, 0px;
+            }
+    </style>
 </head>
 <body>
-    
+    <div class="main">
+        <div class="box">
+            <div class="img1">
+                <div class="tex1">FALL AHEAD</div>
+                
+                <div class="border1"> New Arrivals</div>
+            </div>
+            <div class="img2">
+                <div class="tex2">FALL AHEAD</div>
+                <div class="border2">New Arrivals</div>
+            </div>
+
+        </div>
+    </div>
 </body>
 </html>

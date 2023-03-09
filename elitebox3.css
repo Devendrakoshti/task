@@ -1,0 +1,151 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main {
+        height: 60px;
+        width: 95%;
+        /* border: solid; */
+        margin: 70px 0 0 30px;
+        display: flex;
+    }
+    
+    .main .box1 {
+        height: 60px;
+        width: 25%;
+        background: transparent;
+        display: flex;
+        position: relative;
+    }
+    
+    .main .box1 .style1 {
+        height: 60px;
+        width: 20%;
+        background: url(https://thumbs.dreamstime.com/b/big-truck-icon-black-background-black-flat-style-vector-illustration-big-truck-icon-black-background-black-flat-style-vector-168420304.jpg);
+        background-size: 100% 110%;
+        z-index: 0;
+    }
+    
+    .main .box1 .style2 {
+        position: absolute;
+        height: 60px;
+        width: 20%;
+        background-color: aqua;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transform: scale(0);
+        transition: 0.5s;
+    }
+    
+    .main .box1 .style1:hover .style2 {
+        transform: scale(1);
+    }
+    
+    .tex1::first-line {
+        color: aqua;
+    }
+    
+    .tex1 {
+        margin-left: 20px;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .main .box2 {
+        height: 60px;
+        width: 25%;
+        background: transparent;
+        display: flex;
+        position: relative;
+    }
+    
+    .main .box2 .style3 {
+        height: 60px;
+        width: 20%;
+        background: url(https://thumbs.dreamstime.com/b/big-truck-icon-black-background-black-flat-style-vector-illustration-big-truck-icon-black-background-black-flat-style-vector-168420304.jpg);
+        background-size: 100% 110%;
+        z-index: 0;
+    }
+    
+    .main .box2 .style4 {
+        position: absolute;
+        height: 60px;
+        width: 20%;
+        background-color: aqua;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transform: scale(0);
+        transition: 0.5s;
+    }
+    
+    .main .box2 .style3:hover .style4 {
+        transform: scale(1);
+    }
+    
+    .main .box3 {
+        height: 60px;
+        width: 25%;
+        background: transparent;
+        display: flex;
+        position: relative;
+    }
+    
+    .main .box3 .style5 {
+        height: 60px;
+        width: 20%;
+        background: url(https://thumbs.dreamstime.com/b/big-truck-icon-black-background-black-flat-style-vector-illustration-big-truck-icon-black-background-black-flat-style-vector-168420304.jpg);
+        background-size: 100% 110%;
+        z-index: 0;
+    }
+    
+    .main .box3 .style6 {
+        position: absolute;
+        height: 60px;
+        width: 20%;
+        background-color: aqua;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transform: scale(0);
+        transition: 0.5s;
+    }
+    
+    .main .box3 .style5:hover .style6 {
+        transform: scale(1);
+    }
+    
+    .main .box4 {
+        height: 60px;
+        width: 25%;
+        background: transparent;
+        display: flex;
+        position: relative;
+    }
+    
+    .main .box4 .style7 {
+        height: 60px;
+        width: 20%;
+        background: url(https://thumbs.dreamstime.com/b/big-truck-icon-black-background-black-flat-style-vector-illustration-big-truck-icon-black-background-black-flat-style-vector-168420304.jpg);
+        background-size: 100% 110%;
+        z-index: 0;
+    }
+    
+    .main .box4 .style8 {
+        position: absolute;
+        height: 60px;
+        width: 20%;
+        background-color: aqua;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transform: scale(0);
+        transition: 0.5s;
+    }
+    
+    .main .box4 .style7:hover .style8 {
+        transform: scale(1);
+    }

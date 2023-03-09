@@ -2,13 +2,17 @@
      box-sizing: border-box;
  }
  
+ body {
+     background: gray;
+ }
+ 
  .main {
      height: 400px;
      width: 210px;
      margin: 80px auto;
      background: grey;
      border-radius: 20px;
-     box-shadow: -10px 10px 10px gray;
+     box-shadow: -10px 10px 10px rgba(0, 0, 0, .30);
      /* border: white solid; */
  }
  
@@ -163,17 +167,63 @@
      height: 12px;
      width: 12px;
      margin: 7px 0 0 15px;
-     background: red;
+     background: rgba(244, 101, 5, 0.891);
      border-radius: 50%;
  }
  
- .1 {
-     /* background: yellowgreen; */
+ .main .box2 .red .gre .m1 {
      height: 12px;
      width: 12px;
      margin: 7px 0 0 15px;
-     background: yellow;
+     background-color: lime;
      border-radius: 50%;
+ }
+ 
+ .main .box2 .red .gre .m2 {
+     height: 12px;
+     width: 12px;
+     margin: 7px 0 0 15px;
+     background-color: yellow;
+     border-radius: 50%;
+ }
+ 
+ .main .box2 .red .gre .n {
+     height: 20px;
+     width: 20px;
+     margin: -4px 0px 0 -4px;
+     border: solid 2px rgba(244, 101, 5, 0.891);
+     border-radius: 50%;
+     opacity: 0;
+ }
+ 
+ .main .box2 .red .gre .m:hover .n {
+     opacity: 1;
+ }
+ 
+ .main .box2 .red .gre .n1 {
+     height: 20px;
+     width: 20px;
+     margin: -4px 0px 0 -4px;
+     border: solid 2px lime;
+     border-radius: 50%;
+     opacity: 0;
+ }
+ 
+ .main .box2 .red .gre .m1:hover .n1 {
+     opacity: 1;
+ }
+ 
+ .main .box2 .red .gre .n2 {
+     height: 20px;
+     width: 20px;
+     margin: -4px 0px 0 -4px;
+     border: solid 2px yellow;
+     border-radius: 50%;
+     opacity: 0;
+ }
+ 
+ .main .box2 .red .gre .m2:hover .n2 {
+     opacity: 1;
  }
  
  .main .box2 .red .yel {
@@ -193,6 +243,6 @@
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
  
- .main .box2 .red .yel .span {
-     color: black;
+ .main .box2 .red .yel span {
+     color: rgba(255, 255, 255, .5);
  }
