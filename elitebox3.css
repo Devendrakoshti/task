@@ -23,9 +23,11 @@
     .main .box1 .style1 {
         height: 60px;
         width: 20%;
-        background: url(https://thumbs.dreamstime.com/b/big-truck-icon-black-background-black-flat-style-vector-illustration-big-truck-icon-black-background-black-flat-style-vector-168420304.jpg);
+        background: black;
+        color: white;
         background-size: 100% 110%;
         z-index: 0;
+        padding: 22px 22px;
     }
     
     .main .box1 .style2 {
@@ -65,9 +67,12 @@
     .main .box2 .style3 {
         height: 60px;
         width: 20%;
-        background: url(https://thumbs.dreamstime.com/b/big-truck-icon-black-background-black-flat-style-vector-illustration-big-truck-icon-black-background-black-flat-style-vector-168420304.jpg);
+        background: black;
         background-size: 100% 110%;
         z-index: 0;
+        padding: 22px 22px;
+        color: white;
+        font-size: 20px;
     }
     
     .main .box2 .style4 {
@@ -97,9 +102,12 @@
     .main .box3 .style5 {
         height: 60px;
         width: 20%;
-        background: url(https://thumbs.dreamstime.com/b/big-truck-icon-black-background-black-flat-style-vector-illustration-big-truck-icon-black-background-black-flat-style-vector-168420304.jpg);
+        background: black;
         background-size: 100% 110%;
         z-index: 0;
+        padding: 20px 23px;
+        color: white;
+        font-size: 20px;
     }
     
     .main .box3 .style6 {
@@ -129,9 +137,12 @@
     .main .box4 .style7 {
         height: 60px;
         width: 20%;
-        background: url(https://thumbs.dreamstime.com/b/big-truck-icon-black-background-black-flat-style-vector-illustration-big-truck-icon-black-background-black-flat-style-vector-168420304.jpg);
+        background: black;
         background-size: 100% 110%;
         z-index: 0;
+        padding: 20px 23px;
+        color: white;
+        font-size: 20px;
     }
     
     .main .box4 .style8 {

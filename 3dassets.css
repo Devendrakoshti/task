@@ -43,4 +43,183 @@
     z-index: -1;
 }
 
-.main .squ .hed {}
+.main .squ .hed {
+    height: 50px;
+    /* border: solid; */
+    display: flex;
+}
+
+.main .squ .hed .icon {
+    font-size: 30px;
+    width: 10%;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 10px;
+    align-items: center;
+    line-height: 50px;
+}
+
+.main .squ .hed .ope {
+    height: 50px;
+    width: 70%;
+    display: flex;
+    list-style: none;
+}
+
+.main .squ .hed .ope .ma {
+    margin: 10px 30px 0 0px;
+}
+
+.main .squ .hed .ope .ma li {
+    font-size: 10px;
+}
+
+.main .squ .hed .ope .efe {
+    height: 1px;
+    width: 1px;
+    border: solid;
+    border-radius: 50%;
+    margin: 5px auto;
+    opacity: 0;
+    transition: 1s;
+}
+
+.main .squ .hed .ope .ma:hover .efe {
+    opacity: 1;
+}
+
+.main .squ .hed .log {
+    height: 50px;
+    width: 20%;
+    margin: 20px 0px 0 0;
+    /* background: transparent; */
+    border: white;
+}
+
+.main .squ .bot {
+    display: flex;
+    height: 350p;
+    width: 100%;
+}
+
+.main .squ .bot .tex {
+    height: 350px;
+    width: 50%;
+    border: transparent;
+}
+
+.main .squ .bot .img {
+    height: 350px;
+    width: 50%;
+    border: transparent;
+    background: url(istockphoto-1145625270-612x612-removebg-preview.png);
+    background-size: 100% 100%;
+}
+
+.main .squ .bot .tex .bo {
+    height: 100px;
+    width: 100%;
+    padding: 10px 0px 0 80px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.main .squ .bot .tex .so {
+    margin-top: -20px;
+    height: 100px;
+    width: 100%;
+    padding: 10px 0px 0 80px;
+    font-size: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main .squ .bot .tex .bro {
+    height: 50px;
+    display: flex;
+    width: 100%;
+    /* padding-right: 10px; */
+}
+
+.main .squ .bot .tex .bro .pi1 {
+    height: 20px;
+    width: 80px;
+    background-color: white;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    margin-left: 75px;
+    font-size: 10px;
+    position: relative;
+    z-index: 0;
+}
+
+.pi1:hover {
+    color: white;
+}
+
+.main .squ .bot .tex .bro .pi2 {
+    height: 20px;
+    width: 80px;
+    background-color: white;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 10px;
+    position: relative;
+    z-index: 0;
+}
+
+.pi2:hover {
+    color: white;
+}
+
+::after {
+    content: "";
+    height: 20px;
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    color: white;
+    opacity: 0;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.main .squ .bot .tex .bro .pi1:hover::after {
+    opacity: 1;
+}
+
+::after {
+    content: "";
+    height: 20px;
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    /* color: white; */
+    opacity: 0;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.main .squ .bot .tex .bro .pi2:hover::after {
+    opacity: 1;
+}
+
+.main .squ .bot .tex .int {
+    height: 100px;
+    margin-left: 75px;
+    margin-top: 20px;
+    color: white;
+    /* padding: 10px 10px; */
+}
+
+.main .squ .bot .tex .int i {
+    margin-right: 10px;
+}
