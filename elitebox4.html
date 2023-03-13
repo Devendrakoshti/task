@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{box-sizing: border-box;} */
+        
+        .main {
+            height: 450px;
+            width: 250px;
+            /* border: 2px solid; */
+            box-shadow: 0px 0px 10px grey;
+        }
+        
+        .main .uper {
+            height: 300px;
+            width: 250px;
+            position: relative;
+        }
+        
+        .main .uper .x {
+            height: inherit;
+            width: inherit;
+            position: absolute;
+            transform: rotateY(180deg);
+            transition: 1s;
+        }
+        
+        .main .uper .y {
+            height: inherit;
+            width: inherit;
+            position: absolute;
+            transform: rotateY(0deg);
+            transition: 1s;
+        }
+        
+        .main .uper:hover .x {
+            transform: rotateY(0deg);
+        }
+        
+        .main .uper:hover .y {
+            transform: rotateY(180deg);
+        }
+        
+        .main .center {
+            height: 50px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .main .center .font {
+            text-align: center;
+            margin-top: 10px;
+            color: red;
+        }
+        
+        .main .center .font1 {
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        .main .center .font1 del {
+            color: gray;
+        }
+        
+        .main .uper .view {
+            position: absolute;
+            height: 50px;
+            width: 250px;
+            background: black;
+            top: 0;
+            left: 0;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            line-height: 50px;
+            opacity: 0;
+            transition: 1s;
+        }
+        
+        .uper:hover .view {
+            top: 250px;
+            opacity: 1;
+        }
+        
+        .main .view:hover {
+            background: lightskyblue;
+        }
+        
+        .main .bottom {
+            height: 30px;
+            width: 200px;
+            background-color: rgb(11, 189, 189);
+            margin: 30px auto;
+            text-align: center;
+            line-height: 30px;
+            position: relative;
+            z-index: 0.50;
+        }
+        
+        .main .bottom .box1 {
+            position: absolute;
+            height: 40px;
+            width: 210px;
+            /* background-color: aqua; */
+            border: solid rgb(11, 189, 189);
+            top: -8px;
+            left: -8px;
+            opacity: 0;
+            transform: scale(0);
+            transition: 1s;
+            z-index: -1;
+            font-weight: bold;
+        }
+        
+        .bottom:hover .box1 {
+            transform: scale(1);
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="uper">
+            <div class="x"> <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%"></div>
+            <div class="y"> <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%"></div>
+            <div class="view">quick view</div>
+        </div>
+        <div class="center">
+            <div class="font">formal blue shirt</div>
+            <div class="font1">$45.99&nbsp;<del> $69.71</del></div>
+        </div>
+        <div class="bottom">add to card
+            <!-- <div class="box2">  -->
+            <div class="box1">
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    </div>
+</body>
+
+</html>
