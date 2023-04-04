@@ -1,0 +1,28 @@
+@media(max-width:600px) {
+    .card ul {
+        display: block;
+    }
+    .card ul li {
+        display: block;
+        padding: 10px 300px 10px 0px;
+    }
+    .card ul li .dev {
+        display: flex;
+        padding-right: 25px;
+    }
+    .card ul li .dev .main {
+        width: 200px;
+        height: 370px;
+        margin-right: -30px;
+    }
+    .card ul li .dev .main .uper .view {
+        width: 200px;
+    }
+    .card ul li .dev .uper:hover .view {
+        top: 190px;
+    }
+    .card ul li .dev .main .uper {
+        width: 200px;
+        height: 230px;
+    }
+}
